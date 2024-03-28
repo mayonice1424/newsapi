@@ -1,0 +1,16 @@
+/* @media only screen and (min-width: 1024px) {
+  .width {
+    width: calc(100% - 17rem)  !important;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .width {
+    width: calc(100% - 18.5rem) !important;
+  }
+}
+
+@media only screen and (min-width: 1536px) {
+  .width {
+    width: calc(100% - 19.2rem)  !important;
+  }
+} */

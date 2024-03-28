@@ -1,0 +1,13 @@
+.scrolling-text{
+  animation: scroll-text 10s linear infinite;
+  overflow: hidden;
+}
+
+@keyframes scroll-text {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
