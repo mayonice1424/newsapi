@@ -44,7 +44,7 @@ export default function Home() {
               <h6>{item.author== null ? 'Penulis : Anonymous' : `Penulis : ${item.author}`}</h6>
             </div>
             <Link href={item.url}>
-              <h4  className='hover:text-sky-300 text-bold text-white'>{item.title}</h4>
+              <h4  className='hover:text-sky-300 text-bold text-black'>{item.title}</h4>
         </Link>
             <h6>{item.description == null ? 'Deskripsi tidak tersedia': `${item.description}`}</h6>
             <h6>{item.publishedAt == null ? 'Tanggal publikasi tidak tersedia' : moment(item.publishedAt).format('llll')}</h6>
@@ -69,7 +69,7 @@ export default function Home() {
               <h6>{item.author== null ? 'Penulis : Anonymous' : `Penulis : ${item.author}`}</h6>
             </div>
             <Link href={item.url}>
-              <h4  className='hover:text-sky-300 text-bold text-white'>{item.title}</h4>
+              <h4  className='hover:text-sky-300 text-bold text-black'>{item.title}</h4>
             </Link>
             <h6>{item.description == null ? 'Deskripsi tidak tersedia': `${item.description}`}</h6>
             <h6>{item.publishedAt == null ? 'Tanggal publikasi tidak tersedia' : moment(item.publishedAt).format('llll')}</h6>
@@ -96,7 +96,7 @@ export default function Home() {
               <h6>{item.author== null ? 'Penulis : Anonymous' : `Penulis : ${item.author}`}</h6>
             </div>
             <Link href={item.url}>
-              <h4  className='hover:text-sky-300 text-bold text-white'>{item.title}</h4>
+              <h4  className='hover:text-sky-300 text-bold text-black'>{item.title}</h4>
             </Link>
             <h6>{item.description == null ? 'Deskripsi tidak tersedia': `${item.description}`}</h6>
             <h6>{item.publishedAt == null ? 'Tanggal publikasi tidak tersedia' : moment(item.publishedAt).format('llll')}</h6>
@@ -121,7 +121,7 @@ export default function Home() {
               <h6>{item.author== null ? 'Penulis : Anonymous' : `Penulis : ${item.author}`}</h6>
             </div>
             <Link href={item.url}>
-              <h4  className='hover:text-sky-300 text-bold text-white'>{item.title}</h4>
+              <h4  className='hover:text-sky-300 text-bold text-black'>{item.title}</h4>
             </Link>
             <h6>{item.description == null ? 'Deskripsi tidak tersedia': `${item.description}`}</h6>
             <h6>{item.publishedAt == null ? 'Tanggal publikasi tidak tersedia' : moment(item.publishedAt).format('llll')}</h6>
@@ -145,7 +145,7 @@ export default function Home() {
               <h6>{item.author== null ? 'Penulis : Anonymous' : `Penulis : ${item.author}`}</h6>
             </div>
             <Link href={item.url}>
-              <h4  className='hover:text-sky-300 text-bold text-white'>{item.title}</h4>
+              <h4  className='hover:text-sky-300 text-bold text-black'>{item.title}</h4>
             </Link>
             <h6>{item.description == null ? 'Deskripsi tidak tersedia': `${item.description}`}</h6>
             <h6>{item.publishedAt == null ? 'Tanggal publikasi tidak tersedia' : moment(item.publishedAt).format('llll')}</h6>
